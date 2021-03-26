@@ -1,0 +1,233 @@
+.brand__name {
+  display: flex;
+  justify-content: center;
+}
+
+.brand__name__logo {
+  width: 400px;
+  height: 120px;
+}
+.img__and__text__container {
+  /* margin-left: 100px; */
+  margin-right: 100px;
+}
+.herosection__container {
+  display: flex;
+  padding: 30px;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+.tro__img {
+  width: 440px;
+  height: 760px;
+}
+.acom {
+  padding-right: 20px;
+}
+.acom > li {
+  font-weight: 400;
+}
+.award__img {
+  width: 1100px;
+  height: 560px;
+}
+.second__section {
+  display: flex;
+  flex-direction: column;
+}
+.top_text,
+.pumps,
+.bottom_text {
+  align-self: center;
+}
+.bottom_text {
+  text-align: center;
+}
+.top_text {
+  /* font-size: 1.2rem; */
+  padding: 0 10px 0 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.pumps {
+  /* padding: 0 40px 0 40px; */
+  width: 1300px;
+}
+
+.lin {
+  /* margin-bottom: 30px; */
+  margin: 0 30px 30px 30px;
+  border-bottom: 2px solid rgb(171, 29, 29);
+}
+
+.footer__heading {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.footer__products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
+}
+.line {
+  padding: 0 4px 0 4px;
+}
+.red__bg {
+  /* height: 100px; */
+  background-color: rgb(210, 55, 55);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 1570px) {
+  /* .tro__img {
+    width: 340px;
+    height: 760px;
+  } */
+  .award__img {
+    width: 900px;
+    height: 460px;
+  }
+}
+@media (max-width: 1370px) {
+  .tro__img {
+    width: 340px;
+    height: 660px;
+  }
+  .award__img {
+    width: 900px;
+    height: 460px;
+  }
+  .pumps {
+    /* padding: 0 40px 0 40px; */
+    width: 1000px;
+  }
+}
+@media (max-width: 1300px) {
+  .herosection__container {
+    flex-wrap: wrap;
+  }
+  .award__img {
+  }
+  .img__and__text__container {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1040px) {
+  .pumps {
+    width: 600px;
+  }
+  .award__img {
+    width: 600px;
+    height: 360px;
+  }
+  .tro__img {
+    width: 240px;
+    height: 460px;
+  }
+  a {
+    font-size: 0.8rem;
+  }
+  .text,
+  .line {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 710px) {
+  .pumps {
+    width: 500px;
+  }
+  .award__img {
+    width: 400px;
+    height: 260px;
+  }
+  .tro__img {
+    width: 140px;
+    height: 360px;
+  }
+  .acom {
+    padding: 0;
+  }
+}
+.call,
+.fb,
+.web {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 520px) {
+  .pumps {
+    width: 400px;
+    /* height: 200px; */
+  }
+  .award__img {
+    width: 300px;
+    height: 260px;
+  }
+  .tro__img {
+    width: 140px;
+    height: 360px;
+  }
+  .red__bg {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 455px) {
+  .pumps {
+    width: 300px;
+  }
+  .brand__name__logo {
+    width: 350px;
+    height: 120px;
+  }
+}
+@media (max-width: 375px) {
+  .brand__name__logo {
+    width: 300px;
+    height: 120px;
+  }
+  .red__bg {
+      height: auto;
+  }
+}
+
+@media (max-width: 310px) {
+  .brand__name__logo {
+    width: 200px;
+  }
+}
+
+@media (max-width: 285px) {
+  .pumps {
+    width: 200px;
+  }
+  .brand__name__logo {
+    width: 250px;
+    height: 120px;
+  }
+  .award__img {
+    width: 250px;
+    height: 260px;
+  }
+  .brand__name__logo {
+    width: 150px;
+    /* height: 120px; */
+  }
+}
